@@ -3,138 +3,130 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Freelancer</title>
-	<link rel="stylesheet" type="text/css" href="css/main.css">
-	<link rel="stylesheet" type="text/css" href="css/common.css">
-	<link rel="stylesheet" type="text/css" href="css/grid.css">
-	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="css/grid.css">
-	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"
+	<!-- Enlaza aquí tu CSS común y de tu proyecto -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <script src="https://use.fontawesome.com/8f8db047c3.js"></script>
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/main.css">
 </head>
-<body> 
-	<!--MENU-->
-	<nav>
-		<h1>STAR BOOTSTRAP</h1>
-		<ul>
-			<li><a href="#">PORTAFOLIO</a></li>
-			<li><a href="#">ABOUT</a></li>
-			<li><a href="#">CONTACT</a></li>
-
-		</ul>
-	</nav>
-
-	<!--SECTION STAR BOOSTRAP IMAGEN-->
-	<section class= "principal">
-		<div>
-			<img src="assets/images/profile.png" alt= "profile">
+<body>
+	<!-- Escribe tu código aquí -->
+	<header>
+		<div class="menu container">
+			<a href="#" class="text-uppercase logo">start bootstrap</a>
+			<a href="#contact" class="text-uppercase link">contact</a>
+			<a href="#about" class="text-uppercase link">about</a>
+			<a href="#portfolio" class="text-uppercase link">portfolio</a>
 		</div>
+	</header>
 
-		<div>
-			<h4>STAR BOOSTRAP</h4>
-			<hr class="STAR"></hr>
-			<hr class="STAR-DOS"></hr>
-			<i class="fa fa-star" aria-hidden="true"></i>
-			<span>Web developer-Graphic Atirst - User Experience Designer</span>
-			
+	<section id="home">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<img class="monito" src="assets/images/profile.png" alt="profile">
+					<h2>START BOOTSTRAP</h2>
+					<hr class="estrella-blanca">
+					<p>Web Developer - Graphic Artist - User Experience Designer</p>
+				</div>
+			</div>
 		</div>
-		
-
 	</section>
-	<!-- Imagenes variadas grid -->
-	<section id="Imagenes">
-	<div>
-			<h3>PORTFOLIO</h3>
-			<hr class="STAR"></hr>
-			<hr class="STAR-DOS"></hr>
-			<i class="fa fa-star" aria-hidden="true"></i>
-			
-		</div>
 
-</section>
-	<section class="container">
-		<div class="row">
-			<div class="col-4 caja">
-				<img src="assets/images/portfolio/cabin.png" alt="Caja 1" class="img-responsive">
+	<section id="portfolio">
+		<div class="container">
+			<h2 class="text-uppercase text-services">portfolio</h2>
+			<hr class="estrella-azul">
+			<div class="row">
+					<div class="col-4 imagenes"><img src="assets/images/portfolio/cabin.png" alt="caja 1" class="img-responsive"></div>
+					<div class="col-4 imagenes"><img src="assets/images/portfolio/cake.png" alt="caja 2" class="img-responsive"></div>
+					<div class="col-4 imagenes"><img src="assets/images/portfolio/circus.png" alt="caja 3" class="img-responsive"></div>
 			</div>
-			<div class="col-4">
-				<img src="assets/images/portfolio/cake.png" alt="Caja 2" class="img-responsive">
-			</div>
-			<div class="col-4 caja">
-				<img src="assets/images/portfolio/circus.png" alt="Caja 3" class="img-responsive">
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-4">
-				<img src="assets/images/portfolio/game.png" alt="Caja 4" class="img-responsive">
-			</div>
-			<div class="col-4 caja">
-				<img src="assets/images/portfolio/safe.png" alt="Caja 5" class="img-responsive">
-			</div>
-			<div class="col-4">
-				<img src="assets/images/portfolio/submarine.png" alt="Caja 6" class="img-responsive">
+			<div class="row">
+					<div class="col-4 imagenes"><img src="assets/images/portfolio/game.png" alt="caja 4" class="img-responsive"></div>
+					<div class="col-4 imagenes"><img src="assets/images/portfolio/safe.png" alt="caja 5" class="img-responsive"></div>
+					<div class="col-4 imagenes"><img src="assets/images/portfolio/submarine.png" alt="caja 6" class="img-responsive"></div>
 			</div>
 		</div>
-					<!--ABOUT-->
-			<section id= "about"
-			<div class="container">
-				<div class="description">
-					<div class="col-6">
-					<h5>ABOUT</h5>
-						<p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.
-						</p>			
-					</div>
-					<div class="col-6">
-						<p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
-					</div>
-									
+	</section>
+
+	<section id="about">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<h2 class="text-services">ABOUT</h2>
+					<hr class="estrella-blanca">
 				</div>
 			</div>
-			<div class="container">
-				<div class="row">
-					<div class="col-12">
-						<button type="button"><i class="fa fa-download" aria-hidden="true"></i> Download Theme</button>
-					</div>		
+			<div class="row">
+				<div class="col-6 mas-pad">
+					<p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
 				</div>
-			</div>				
+				<div class="col-6 mas-pad">
+					<p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12">
+					<div class="centrar">
+						<a class="download" href="#"><i class="fa fa-download" aria-hidden="true"></i> Download Theme</a>
+					</div>
+				</div>
+			</div>
 		</div>
-		</section>
+	</section>
 
-							<!--Contact me-->
-							<section class="cuatro">
-								<div class="contacto"></div>
-								<input type="text" name="Nombre" value="Nombre" id="nombre"><br>
-								<input type="text" name="Email" value="Email" id="email"><br>
-								<input type="text" name="Asunto" value="Asunto" id="asunto"><br>
-								<textarea name="Mensaje" id="mensaje">Mensaje</textarea>
+	<section id="contact">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<h2 class="text-uppercase text-services">Contact Me</h2>
+					<hr class="estrella-azul">
+					<div class="contact">
+						<input id="value-nombre" type="text" placeholder="Name">
+						<input id="value-email" type="text" placeholder="Email Address">
+						<input id="value-fono" type="text" placeholder="Phone Number">
+						<textarea class="mensaje" name="" id="value-texto" cols="30" rows="6" placeholder="Message"></textarea>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12">
+					<a href="#" id="btn-send" class="btn-send">Send</a>
+				</div>
+			</div>
+		</div>
+	</section>
 
-								<button class="clic01" onclick="">Enviar</button>
-							
-						</section>
-						<!--Location-->
-						<div>
-							<h3>LOCATION</h3>
-							<p>3481 Melrose Place Beverly Hilss, CA90210</p>
+	<section id="footer">
+		<div class="container">
+			<div class="row">
+					<div class="col-4"><h2 class="text-uppercase">location</h2> <p>3481 Melrose Place<br>Beverly Hills, CA 90210</p> </div>
+					<div class="col-4"><h2 class="text-uppercase">around the web</h2>
+						<div class="social">
+							<i class="fa fa-facebook social-icon" aria-hidden="true"></i>
+							<i class="fa fa-google-plus social-icon" aria-hidden="true"></i>
+							<i class="fa fa-twitter social-icon" aria-hidden="true"></i>
+							<i class="fa fa-linkedin social-icon" aria-hidden="true"></i>
+							<i class="fa fa-dribbble social-icon" aria-hidden="true"></i>
+						</div>
+					</div>
+					<div class="col-4"><h2 class="text-uppercase">about freelancer</h2> <p>Freelance is free to use, open source Bootstrap theme created by Start Bootstrap</p></div>
+			</div>
+		</div>
+	</section>
 
-							<h5>AROUND THE WEB</h5>
-							<i class="fa fa-facebook" aria-hidden="true"></i>
-							<i class="fa fa-google" aria-hidden="true"></i>
-							<i class="fa fa-twitter" aria-hidden="true"></i>
-							<i class="fa fa-linkedin" aria-hidden="true"></i>
-							<i class="fa fa-dribbble" aria-hidden="true"></i>
+	<section class="footer-flaco">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					 Copyright © Your Website 2016
+				</div>
+			</div>
+		</div>
+	</section>
 
-
-
-							<h6>ABOUT FREELANCER</h6>
-							<p> Freelance is a free to use, open cource Boostrap theme created by <span>Star Boostrap</span></p>
-							</div>
-
-								<!-- footer-->
-								<footer>
-									<i class="fa fa-copyright" aria-hidden="true"></i>
-									<p>Copyright</p>
-								</footer>
-
-
-
-								<script src= "js/app.js"  type="text/javascript" charset="utf-8" async defer></script>
-							</body>
-							</html>
+	<!-- Enlaza aquí tu archivo JS -->
+	<script src="js/app.js"></script>
+</body>
+</html>
